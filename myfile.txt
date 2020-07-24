@@ -1,0 +1,7 @@
+func()
+{
+    char c;
+    if((c=getchar()) != '\n')
+    func();
+    putchar(c);
+}
